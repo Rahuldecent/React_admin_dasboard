@@ -12,5 +12,5 @@ const customFetch = async (url: string, options: RequestInit) => {
       "Content-Type": "application/json",
       "Apollo-Required-Preflight": "true",
     },
-  });
+  })
 };
